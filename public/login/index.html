@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New tab</title>
+		<script src="../cdn/jquery.js" defer></script>
+		<script src="../cdn/socket.io.js" defer></script>
+		<script src="../cdn/login.js" defer></script>
+		<link href="../cdn/login.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="background">
+			<div id="login">
+				<center>
+					<div id="header">
+						<h2 id="title">MDChat</h2>
+					</div>
+					<div id="form">
+						<span id="label">Login to your account</span>
+						<br><br>
+						<input type="text" placeholder="Username" class="text">
+						<input type="password" placeholder="Password" class="text">
+						<br><br>
+						<input type="button" value="Login" id="enter">
+						<br>
+					</div>
+				</center>
+			</div>
+		</div>
+		<div id="loader-div" style="display: none;">
+			<div id="loader"></div>
+		</div>
+		<div id="overlay"></div>
+	</body>
+</html>
